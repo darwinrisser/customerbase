@@ -1,0 +1,25 @@
+{
+  "name": "customerbase",
+  "version": "1.0.0",
+  "description": "GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darwinrisser/customerbase.git"
+  },
+  "author": "Darwin Risser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darwinrisser/customerbase/issues"
+  },
+  "homepage": "https://github.com/darwinrisser/customerbase#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0",
+    "nodemon": "^1.19.0"
+  }
+}
